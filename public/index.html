@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<style type="text/css">
+		.inactive { display: none; }
+		.active { display: block; }
+	</style>
+</head>
+<body>
+<div id="loader" class="active">
+	<p>Enter youtube video url:<input id="video-url" /><button id="load-video">Load Video</button></p>
+	<div id="player"></div>
+</div>
+
+<script src="http://localhost:3000/socket.io/socket.io.js" type="text/javascript"></script>
+<script src="http://www.youtube.com/player_api" type="text/javascript"></script>
+<script src="ytsync.js" type="text/javascript"></script>
+
+</body>
+</html>
